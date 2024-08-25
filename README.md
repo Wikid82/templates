@@ -18,11 +18,11 @@ This is a collection of some of the most popular images (and some smaller ones t
 - [Tautulli][7]
 - [Sonarr][8]
 - [Radarr][9]
-- [Prowlarr].[10]
-   - [Flaresolver].[14]
-- [Bazarr].[11]
-- [Overseerr].[12]
-- [Plexis].[13]
+- [Prowlarr][10]
+   - [Flaresolver][14]
+- [Bazarr][11]
+- [Overseerr][12]
+- [PlexIs][13]
 
 [6]: https://hub.docker.com/r/plexinc/pms-docker/                    "Plex Media Server"
 [7]: https://hub.docker.com/r/tautulli/tautulli/                     "Tautulli"
