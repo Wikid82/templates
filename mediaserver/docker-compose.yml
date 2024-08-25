@@ -2,14 +2,14 @@ services:
 #Plex Media Server
   plex:
     container_name: plex
-    image: plexinc/pms-docker:beta
+    image: plexinc/pms-docker:latest
     restart: unless-stopped
     ports:
         - "32400:32400" 
     volumes:
-        - /home/jeremy/Server/configs/mediaserver/plex/config:/config 
-        - /home/jeremy/Server/configs/mediaserver/plex/temp:/transcode 
-        - /home/jeremy/Server/Mounts:/data 
+        - /path/to/plex/data/config:/config 
+        - /path/to/plex/temp:/transcode 
+        - /path/to/plex/data:/data 
     environment:
      PUID: 1000
      PGID: 1000
@@ -23,17 +23,17 @@ services:
     ports:
       - 8181:8181
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/tautulli:/config
+      - /path/to/tautulli/config:/config
     environment:
      PUID: 1000
      PGID: 1000
      TZ: America/New_York
-     # SMPT
-     SMTP Server: smtp.gmail.com
-     SMTP Port: 587
-     SMTP User: jhatfield82@gmail.com
-     SMTP Password: htot axrc hztj nuxn
-     Encryption: TLS/STARTTLS  
+     # SMPT ONLY REQUIRED IF YOU WANT TO PROVIDE EMAIL NOTIFICATIONS (IE: NEWSLETTERS)
+     # SMTP Server: {YourServerAddress} (IE: smtp.google.com)
+     # SMTP Port: 587
+     # SMTP User: {YourServerUsername}
+     # SMTP Password: {YourServerPassword}
+     # Encryption: TLS/STARTTLS  
 
 # Sonarr
   sonarr:
@@ -43,8 +43,8 @@ services:
     ports:
       - "8989:8989"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/sonarr:/config
-      - /home/jeremy/Server/Mounts:/data
+      - /path/to/sonarr/config:/config
+      - /path/to/sonarr/data:/data
     environment:
      PUID: 1000
      PGID: 1000
@@ -59,8 +59,8 @@ services:
     ports:
       - "7878:7878"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/radarr:/config
-      - /home/jeremy/Server/Mounts:/data
+      - /path/to/radarr/config:/config
+      - /path/to/radarr/data:/data
     environment:
      PUID: 1000
      PGID: 1000
@@ -75,7 +75,7 @@ services:
     ports:
       - "9696:9696"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/prowlarr:/config    
+      - /path/tot/prowlarr/config:/config    
     environment:
      PUID: 1000
      PGID: 1000
@@ -90,8 +90,8 @@ services:
     ports:
       - "6767:6767"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/bazarr:/config
-      - /home/jeremy/Server/Mount:/date
+      - /path/to/bazarr/config:/config
+      - /path/to/bazarr/data:/date
     environment:
      PUID: 1000
      PGID: 1000
@@ -107,7 +107,7 @@ services:
     ports:
       - "5055:5055"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/overseerr:/app/config
+      - /path/to/overseerr/config:/app/config
     environment:
      PUID: 1000
      PGID: 1000
@@ -122,17 +122,17 @@ services:
     ports:
       - "9999:9999"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/plexis:/config    
+      - /path/to/plexis/data:/config    
     environment:
      PUID: 1000
      PGID: 1000
      UMASK: 002
      TZ: America/New_York
-     PLEX_URL: http://192.168.12.85:32400 
-     PLEX_TOKEN: voBS1YAB17G9zb9da-XK 
-     RADARR_URL: http://192.168.12.85:7878 
-     RADARR_API_KEY: c988ba9f7c694d6ba52cf12a62136d4e 
-     GROQ_API_KEY: gsk_mEkpgz8G6LEDs3Y1GlrIWGdyb3FYJTWmwGTJID0RKWE4n5A5YXQry 
+     PLEX_URL: http://{Your.Server.IP.Address}:32400 
+     PLEX_TOKEN: {YourPlexToken}
+     RADARR_URL: http://{Your.Server.IP.Address}:7878 
+     RADARR_API_KEY: {YourRadarrAPIKey} 
+     GROQ_API_KEY: {YourGROGAPIKey}
 
 # Flaresolver
   flaresolver:
@@ -142,7 +142,7 @@ services:
     ports:
       - "8191:8191"
     volumes:
-      - /home/jeremy/Server/configs/mediaserver/flaresolver:/config   
+      - /path/to/flaresolver/config:/config   
     environment:
      PUID: 1000
      PGID: 1000
