@@ -1,0 +1,152 @@
+services:
+#Plex Media Server
+  plex:
+    container_name: plex
+    image: plexinc/pms-docker:beta
+    restart: unless-stopped
+    ports:
+        - "32400:32400" 
+    volumes:
+        - /home/jeremy/Server/configs/mediaserver/plex/config:/config 
+        - /home/jeremy/Server/configs/mediaserver/plex/temp:/transcode 
+        - /home/jeremy/Server/Mounts:/data 
+    environment:
+     PUID: 1000
+     PGID: 1000
+     TZ: America/New_York
+
+# Tautulli
+  tautulli:
+    image: ghcr.io/tautulli/tautulli:latest
+    container_name: tautulli
+    restart: unless-stopped
+    ports:
+      - 8181:8181
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/tautulli:/config
+    environment:
+     PUID: 1000
+     PGID: 1000
+     TZ: America/New_York
+     # SMPT
+     SMTP Server: smtp.gmail.com
+     SMTP Port: 587
+     SMTP User: jhatfield82@gmail.com
+     SMTP Password: htot axrc hztj nuxn
+     Encryption: TLS/STARTTLS  
+
+# Sonarr
+  sonarr:
+    container_name: sonarr
+    image: ghcr.io/hotio/sonarr:latest
+    restart: unless-stopped
+    ports:
+      - "8989:8989"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/sonarr:/config
+      - /home/jeremy/Server/Mounts:/data
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+
+# Radarr
+  radarr:
+    container_name: radarr
+    image: ghcr.io/hotio/radarr:latest
+    restart: unless-stopped
+    ports:
+      - "7878:7878"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/radarr:/config
+      - /home/jeremy/Server/Mounts:/data
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+
+# Prowlarr
+  prowlarr:
+    container_name: prowlarr
+    image: ghcr.io/hotio/prowlarr:latest
+    restart: unless-stopped
+    ports:
+      - "9696:9696"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/prowlarr:/config    
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+
+# Bazarr
+  bazarr:
+    container_name: bazarr
+    image: ghcr.io/hotio/bazarr:latest
+    restart: unless-stopped
+    ports:
+      - "6767:6767"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/bazarr:/config
+      - /home/jeremy/Server/Mount:/date
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+     WEBUI_PORTS: 6767/tcp,6767/udp
+
+# Overseerr
+  overseerr:
+    container_name: overseerr
+    restart: unless-stopped
+    image: docker.io/sctx/overseerr:latest
+    ports:
+      - "5055:5055"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/overseerr:/app/config
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+
+# PlexIs
+  plexis:
+    container_name: plexis
+    restart: unless-stopped
+    image: docker.io/julesmellot/plexis:latest
+    ports:
+      - "9999:9999"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/plexis:/config    
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+     PLEX_URL: http://192.168.12.85:32400 
+     PLEX_TOKEN: voBS1YAB17G9zb9da-XK 
+     RADARR_URL: http://192.168.12.85:7878 
+     RADARR_API_KEY: c988ba9f7c694d6ba52cf12a62136d4e 
+     GROQ_API_KEY: gsk_mEkpgz8G6LEDs3Y1GlrIWGdyb3FYJTWmwGTJID0RKWE4n5A5YXQry 
+
+# Flaresolver
+  flaresolver:
+    container_name: flaresolver
+    restart: unless-stopped
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    ports:
+      - "8191:8191"
+    volumes:
+      - /home/jeremy/Server/configs/mediaserver/flaresolver:/config   
+    environment:
+     PUID: 1000
+     PGID: 1000
+     UMASK: 002
+     TZ: America/New_York
+
+
