@@ -26,9 +26,9 @@ This is a collection of some of the most popular images (and some smaller ones t
 
 [6]: https://hub.docker.com/r/plexinc/pms-docker/                    "Plex Media Server"
 [7]: https://hub.docker.com/r/tautulli/tautulli/                     "Tautulli"
-[8]: https://hotio.dev/containers/sonarr                              "Sonarr"
-[9]: https://hotio.dev/containers/radarr/                             "Radarr
-[10]: https://hotio.dev/containers/prowlarr/                         "Prowlarr"
+[8]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
+[9]: https://wiki.servarr.com/radarr/installation/docker             "Radarr"
+[10]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
 [10.1]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
 [11]: https://hotio.dev/containers/bazarr/                           "Bazarr"
 [12]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
