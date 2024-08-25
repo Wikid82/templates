@@ -14,7 +14,7 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run in a formatted to be easliy deployed in one compose file.
 
-- [Plez Media Server][6]
+- [Plex Media Server][6]
 - [Tautulli][7]
 - [Sonarr][8]
 - [Radarr][9]
