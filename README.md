@@ -2,13 +2,13 @@
 
 Dashy is an open source, highly customizable, easy to use, privacy-respecting dashboard app. 
 
-When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
+[Website][1] [Live Demo][4] [Quick Start][2] [Docs][3] [GitHub][5]
 
-[1]: https://wikipedia.org            "Wikipedia"
-[2]: https://google.com               "Google"
-[3]: https://starwars.fandom.com      "Wookiepedia"
-
-
+[1]: https://dashy.to                               "Website"
+[2]: https://dashy.to/docs/quick-start              "Quick Start"
+[3]: https://dashy.to/docs                          "Docs"
+[4]: https://demo.dashy.to                          "Live Demo"
+[4]: https://github.com/lissy93/dashy               "GitHub"
 
 # Media Server: #
 
