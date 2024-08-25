@@ -16,8 +16,8 @@ This is a collection of some of the most popular images (and some smaller ones t
 
 - [Plez Media Server][6]
 - [Tautulli][7]
-- [Sonarr].[8]
-- [Radarr].[9]
+- [Sonarr][8]
+- [Radarr][9]
 - [Prowlarr].[10]
    - [Flaresolver].[14]
 - [Bazarr].[11]
