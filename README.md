@@ -14,12 +14,12 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run in a formatted to be easliy deployed in one compose file.
 
-- [Plex Media Server].[6]
+- [Plez Media Server][6]
 - [Tautulli].[7]
 - [Sonarr].[8]
 - [Radarr].[9]
 - [Prowlarr].[10]
-   - [Flaresolver].[10.1]
+   - [Flaresolver].[14]
 - [Bazarr].[11]
 - [Overseerr].[12]
 - [Plexis].[13]
@@ -29,7 +29,7 @@ This is a collection of some of the most popular images (and some smaller ones t
 [8]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
 [9]: https://wiki.servarr.com/radarr/installation/docker             "Radarr"
 [10]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
-[10.1]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
+[14]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
 [11]: https://hotio.dev/containers/bazarr/                           "Bazarr"
 [12]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
 [13]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
