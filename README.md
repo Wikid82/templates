@@ -30,7 +30,7 @@ This is a collection of some of the most popular images (and some smaller ones t
 ### Plex Media Server ###
 
 A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
-- [Website][7]  |  [Docker Hub][6] 
+[Website][7]  |  [Docker Hub][6] 
 
 ### Tautulli ###
 
