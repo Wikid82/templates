@@ -32,7 +32,7 @@ A python based web application for monitoring, analytics and notifications for P
 
 ## Sonarr ##  
 
-Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12]
+Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
 
 [Website][10]  |  [Wiki][13]  
 
@@ -70,7 +70,7 @@ Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are m
 [9]: https://github.com/Tautulli/Tautulli                             "Tautulli GitHub"
 [10]: https://sonarr.tv                                               "Sonarr.tv"
 [11]: https://hotio.dev/containers/base/                              "Hotio.dev Images"
-[12]: [https://docs.linuxserver.io/images/                            "Linuxserver.io Images"
+[12]: https://docs.linuxserver.io/images/                            "Linuxserver.io Images"
 [13]: https://wiki.servarr.com/sonarr/installation/docker             "Servarr: Sonarr"
 [0]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
 [0]: https://nandyalu.github.io/trailarr/                           "Trailer"
