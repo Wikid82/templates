@@ -1,4 +1,4 @@
-# Dashy: #
+# <b><u>Dashy</b></u>: #
 
 Dashy is an open source, highly customizable, easy to use, privacy-respecting dashboard app. 
 
@@ -11,7 +11,7 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 [5]: https://github.com/lissy93/dashy               "GitHub"
 
 
-# Glances: #
+# <b><u>Glances</b></u>: #
 ### An Eye on your system ###
 
 Glances is a cross-platform system monitoring
@@ -23,7 +23,7 @@ Glances is a cross-platform system monitoring
 [18]: https://github.com/nicolargo/glances/wiki      "Wiki"
 [16]: https://github.com/nicolargo/glances          "GitHub"
 
-# Media Server: #
+# <b><u>Media Server</b></u>: #
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run in a formatted to be easliy deployed in one compose file.
 
