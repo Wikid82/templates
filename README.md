@@ -10,6 +10,19 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 [4]: https://demo.dashy.to                          "Live Demo"
 [5]: https://github.com/lissy93/dashy               "GitHub"
 
+
+# Glances: #
+### An Eye on your system ###
+
+Glances is a cross-platform system monitoring
+
+[Website][15] |  [Docs][17] | [Wiki][18] |  [GitHub][16]
+
+[15]: https://nicolargo.github.io/glances/           "Website"
+[17]: https://glances.readthedocs.io/en/latest/      "Docs"
+[18]: https://github.com/nicolargo/glances/wiki      "Wiki"
+[16]: https://github.com/nicolargo/glances          "GitHub"
+
 # Media Server: #
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run in a formatted to be easliy deployed in one compose file.
