@@ -12,7 +12,7 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 
 
 # <ins>Glances</ins>: #
-### An Eye on your system ###
+## An Eye on your system ##
 
 Glances is a cross-platform system monitoring
 
@@ -27,8 +27,14 @@ Glances is a cross-platform system monitoring
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run formatted to be easliy deployed in one compose file.
 
-- [Plex Media Server][6] - A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
-- [Tautulli][7] - A python based web application for monitoring, analytics and notifications for Plex Media Server.
+###Plex Media Server###
+A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
+- [Website][7]  |  [Docker Hub][6] 
+
+###Tautulli###
+A python based web application for monitoring, analytics and notifications for Plex Media Server.
+
+- [Website][8]  |  [Website][8]
 - [Sonarr][8] - Sonarr is a PVR for Usenet and BitTorrent users. 
 - [Radarr][9] - Radarr is a movie collection manager for Usenet and BitTorrent users.
 - [Trailarr][22] - Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
@@ -38,16 +44,16 @@ This is a collection of some of the most popular images (and some smaller ones t
 - [Overseerr][12] - Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
 - [PlexIs][13] - Plexis is a tool designed to enhance your Plex media server
 
-[6]: https://hub.docker.com/r/plexinc/pms-docker/                    "Plex Media Server"
-[7]: https://hub.docker.com/r/tautulli/tautulli/                     "Tautulli"
-[8]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
-[9]: https://wiki.servarr.com/radarr/installation/docker             "Radarr"
-[10]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
-[14]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
-[11]: https://hotio.dev/containers/bazarr/                           "Bazarr"
-[12]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
-[13]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
-[22]: https://nandyalu.github.io/trailarr/                           "Trailer"
+[6]: https://hub.docker.com/r/plexinc/pms-docker/                    "Plex Media Server: Docker Hub"
+[7]: (https://www.plex.tv                                            "Website"
+[0]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
+[0]: https://wiki.servarr.com/radarr/installation/docker             "Radarr"
+[0]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
+[0]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
+[0]: https://hotio.dev/containers/bazarr/                           "Bazarr"
+[0]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
+[0]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
+[0]: https://nandyalu.github.io/trailarr/                           "Trailer"
 
 # <ins>PiHole</ins>: #
 
