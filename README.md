@@ -1,4 +1,4 @@
-# <b><u>Dashy</b></u>: #
+# <ins>Dashy</ins>: #
 
 Dashy is an open source, highly customizable, easy to use, privacy-respecting dashboard app. 
 
