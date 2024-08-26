@@ -3,7 +3,7 @@ services:
     image: docker.io/nicolargo/glances:latest-full
     container_name: glances
     ports: 
-      - 61210:61208
+      - 61208:61208
       - 61209:61209
     volumes:
       - /run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro 
