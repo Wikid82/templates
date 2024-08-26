@@ -47,6 +47,7 @@ This is a collection of some of the most popular images (and some smaller ones t
 [11]: https://hotio.dev/containers/bazarr/                           "Bazarr"
 [12]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
 [13]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
+[22]: https://nandyalu.github.io/trailarr/                           "Trailer"
 
 # <ins>PiHole</ins>: #
 
