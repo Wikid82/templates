@@ -22,7 +22,7 @@ This is a collection of some of the most popular images (and some smaller ones t
 
 A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
 
-[Plex.tv][7]  |  [Docker Hub][6] 
+[Plex.tv][6]  |  [Docker Hub][6] 
 
 ### Tautulli ###
 
