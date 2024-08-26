@@ -22,13 +22,13 @@ This is a collection of some of the most popular images (and some smaller ones t
 
 A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
 
-[Plex.tv][6]  |  [Docker Hub][6] 
+[Website][6]  |  [Docker Hub][6] 
 
 ### Tautulli ###
 
 A python based web application for monitoring, analytics and notifications for Plex Media Server.
 
- [Docker Hub][8]  |  [Docker Hub][9]
+ [Website][8]  |  [GitHub][9]
 
 - 
 - [Sonarr][8] - Sonarr is a PVR for Usenet and BitTorrent users. 
@@ -60,9 +60,9 @@ A python based web application for monitoring, analytics and notifications for P
 [4]: https://demo.dashy.to                                            "Dashy Live Demo"
 [5]: https://github.com/lissy93/dashy                                 "Dashy GitHub"
 [6]: https://hub.docker.com/r/plexinc/pms-docker/                     "Plex Media Server: Docker Hub"
-[7]: (https://www.plex.tv                                             "Plex.tv"
-[0]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
-[0]: https://wiki.servarr.com/radarr/installation/docker             "Radarr"
+[7]: https://www.plex.tv                                              "Plex.tv"
+[8]: https://tautulli.com                                             "Tautulli.com"
+[9]: https://github.com/Tautulli/Tautulli                             "Tautulli GitHub"
 [0]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
 [0]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
 [0]: https://hotio.dev/containers/bazarr/                           "Bazarr"
