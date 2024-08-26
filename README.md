@@ -30,13 +30,14 @@ This is a collection of some of the most popular images (and some smaller ones t
 ### Plex Media Server ###
 
 A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
+
 [Website][7]  |  [Docker Hub][6] 
 
 ### Tautulli ###
 
 A python based web application for monitoring, analytics and notifications for Plex Media Server.
 
- [Website][8]  |  [Website][8]
+ [Website][9]  |  [Website][10]
 
 - 
 - [Sonarr][8] - Sonarr is a PVR for Usenet and BitTorrent users. 
