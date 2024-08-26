@@ -4,12 +4,6 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 
 [Website][1] |  [Live Demo][4] |  [Quick Start][2] |  [Docs][3] |  [GitHub][5]
 
-[1]: https://dashy.to                               "Website"
-[2]: https://dashy.to/docs/quick-start              "Quick Start"
-[3]: https://dashy.to/docs                          "Docs"
-[4]: https://demo.dashy.to                          "Live Demo"
-[5]: https://github.com/lissy93/dashy               "GitHub"
-
 
 # <ins>Glances</ins>: #
 ## An Eye on your system ##
@@ -18,10 +12,7 @@ Glances is a cross-platform system monitoring
 
 [Website][15] |  [Docs][17] | [Wiki][18] |  [GitHub][16]
 
-[15]: https://nicolargo.github.io/glances/           "Website"
-[17]: https://glances.readthedocs.io/en/latest/      "Docs"
-[18]: https://github.com/nicolargo/glances/wiki      "Wiki"
-[16]: https://github.com/nicolargo/glances          "GitHub"
+
 
 # <ins>Media Server</ins>: #
 
@@ -37,7 +28,7 @@ A one-stop destination to stream movies, TV shows, and music, Plex is the most c
 
 A python based web application for monitoring, analytics and notifications for Plex Media Server.
 
- [Website][9]  |  [Website][10]
+ [Docker Hub][8]  |  [Docker Hub][9]
 
 - 
 - [Sonarr][8] - Sonarr is a PVR for Usenet and BitTorrent users. 
@@ -49,6 +40,25 @@ A python based web application for monitoring, analytics and notifications for P
 - [Overseerr][12] - Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
 - [PlexIs][13] - Plexis is a tool designed to enhance your Plex media server
 
+
+
+# <ins>PiHole</ins>: #
+
+﻿﻿Network-wide Ad Blocking
+
+[Website][19] |  [Docs][20] |  [GitHub][21]
+
+
+
+
+
+
+
+[1]: https://dashy.to                               "Website"
+[2]: https://dashy.to/docs/quick-start              "Quick Start"
+[3]: https://dashy.to/docs                          "Docs"
+[4]: https://demo.dashy.to                          "Live Demo"
+[5]: https://github.com/lissy93/dashy               "GitHub"
 [6]: https://hub.docker.com/r/plexinc/pms-docker/                    "Plex Media Server: Docker Hub"
 [7]: (https://www.plex.tv                                            "Website"
 [0]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
@@ -59,13 +69,10 @@ A python based web application for monitoring, analytics and notifications for P
 [0]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
 [0]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
 [0]: https://nandyalu.github.io/trailarr/                           "Trailer"
-
-# <ins>PiHole</ins>: #
-
-﻿﻿Network-wide Ad Blocking
-
-[Website][19] |  [Docs][20] |  [GitHub][21]
-
+[15]: https://nicolargo.github.io/glances/           "Website"
+[17]: https://glances.readthedocs.io/en/latest/      "Docs"
+[18]: https://github.com/nicolargo/glances/wiki      "Wiki"
+[16]: https://github.com/nicolargo/glances          "GitHub"
 [19]: https://pi-hole.net                            "Website"
 [20]: https://docs.pi-hole.net                       "Docs"
 [21]: https://github.com/pi-hole/docker-pi-hole        "GitHub"
