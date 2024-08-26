@@ -2,7 +2,7 @@
 
 Dashy is an open source, highly customizable, easy to use, privacy-respecting dashboard app. 
 
-[Website][1] |  [Live Demo][4] |  [Quick Start][2] |  [Docs][3] |  [GitHub][5]
+[Dashy.to][1] |  [Live Demo][4] |  [Quick Start][2] |  [Docs][3] |  [GitHub][5]
 
 
 # <ins>Glances</ins>: #
@@ -22,7 +22,7 @@ This is a collection of some of the most popular images (and some smaller ones t
 
 A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
 
-[Website][7]  |  [Docker Hub][6] 
+[Plex.tv][7]  |  [Docker Hub][6] 
 
 ### Tautulli ###
 
@@ -54,13 +54,13 @@ A python based web application for monitoring, analytics and notifications for P
 
 
 
-[1]: https://dashy.to                               "Website"
-[2]: https://dashy.to/docs/quick-start              "Quick Start"
-[3]: https://dashy.to/docs                          "Docs"
-[4]: https://demo.dashy.to                          "Live Demo"
-[5]: https://github.com/lissy93/dashy               "GitHub"
-[6]: https://hub.docker.com/r/plexinc/pms-docker/                    "Plex Media Server: Docker Hub"
-[7]: (https://www.plex.tv                                            "Website"
+[1]: https://dashy.to                                                 "Dashy.to"
+[2]: https://dashy.to/docs/quick-start                                "Dashy Quick Start"
+[3]: https://dashy.to/docs                                            "Dashy Docs"
+[4]: https://demo.dashy.to                                            "Dashy Live Demo"
+[5]: https://github.com/lissy93/dashy                                 "Dashy GitHub"
+[6]: https://hub.docker.com/r/plexinc/pms-docker/                     "Plex Media Server: Docker Hub"
+[7]: (https://www.plex.tv                                             "Plex.tv"
 [0]: https://wiki.servarr.com/sonarr/installation/docker             "Sonarr"
 [0]: https://wiki.servarr.com/radarr/installation/docker             "Radarr"
 [0]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
