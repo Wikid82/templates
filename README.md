@@ -25,7 +25,7 @@ Glances is a cross-platform system monitoring
 
 # <ins>Media Server</ins>: #
 
-This is a collection of some of the most popular images (and some smaller ones to try) that I personally run in a formatted to be easliy deployed in one compose file.
+This is a collection of some of the most popular images (and some smaller ones to try) that I personally run formatted to be easliy deployed in one compose file.
 
 - [Plex Media Server][6] - A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
 - [Tautulli][7] - A python based web application for monitoring, analytics and notifications for Plex Media Server.
