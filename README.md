@@ -31,6 +31,7 @@ This is a collection of some of the most popular images (and some smaller ones t
 - [Tautulli][7] - A python based web application for monitoring, analytics and notifications for Plex Media Server.
 - [Sonarr][8] - Sonarr is a PVR for Usenet and BitTorrent users. 
 - [Radarr][9] - Radarr is a movie collection manager for Usenet and BitTorrent users.
+- [Trailarr][22] - Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
 - [Prowlarr][10] - Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. 
    - [Flaresolver][14] - FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 - [Bazarr][11] - Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
