@@ -30,8 +30,13 @@ A python based web application for monitoring, analytics and notifications for P
 
  [Website][8]  |  [GitHub][9]
 
-- 
-- [Sonarr][8] - Sonarr is a PVR for Usenet and BitTorrent users. 
+## Sonarr ##  
+
+Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12]
+
+[Website][10]  |  [Wiki][13]  
+
+
 - [Radarr][9] - Radarr is a movie collection manager for Usenet and BitTorrent users.
 - [Trailarr][22] - Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
 - [Prowlarr][10] - Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. 
@@ -63,10 +68,10 @@ A python based web application for monitoring, analytics and notifications for P
 [7]: https://www.plex.tv                                              "Plex.tv"
 [8]: https://tautulli.com                                             "Tautulli.com"
 [9]: https://github.com/Tautulli/Tautulli                             "Tautulli GitHub"
-[0]: https://wiki.servarr.com/prowlarr/installation/docker                     "Prowlarr"
-[0]: https://github.com/FlareSolverr/FlareSolverr/                 "Flaresolver"
-[0]: https://hotio.dev/containers/bazarr/                           "Bazarr"
-[0]: https://docs.overseerr.dev/getting-started/installation#docker "Overseerr"
+[10]: https://sonarr.tv                                               "Sonarr.tv"
+[11]: https://hotio.dev/containers/base/                              "Hotio.dev Images"
+[12]: [https://docs.linuxserver.io/images/                            "Linuxserver.io Images"
+[13]: https://wiki.servarr.com/sonarr/installation/docker             "Servarr: Sonarr"
 [0]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
 [0]: https://nandyalu.github.io/trailarr/                           "Trailer"
 [15]: https://nicolargo.github.io/glances/           "Website"
