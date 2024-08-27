@@ -59,7 +59,7 @@ A python based web application for monitoring, analytics and notifications for P
 
   Plexis is a tool designed to enhance your Plex media server by creating custom collections with the help of AI. (in development at the time of writing)
 
-[Website][35]
+[Docker Hub][35]
 
 [32]: https://overseerr.dev                                          "Overseerr"
 [33]: https://github.com/sct/overseerr                               "Overseerr: GitHub"
