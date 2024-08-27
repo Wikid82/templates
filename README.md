@@ -36,8 +36,12 @@ Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are m
 
 [Website][10]  |  [Wiki][13]  
 
+## Radarr ##
 
-- [Radarr][9] - Radarr is a movie collection manager for Usenet and BitTorrent users.
+Radarr is a movie collection manager for Usenet and BitTorrent users. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
+
+[Website][14]  |  [Wiki][15] 
+
 - [Trailarr][22] - Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
 - [Prowlarr][10] - Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. 
    - [Flaresolver][14] - FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
@@ -72,8 +76,8 @@ Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are m
 [11]: https://hotio.dev/containers/base/                              "Hotio.dev Images"
 [12]: https://docs.linuxserver.io/images/                            "Linuxserver.io Images"
 [13]: https://wiki.servarr.com/sonarr/installation/docker             "Servarr: Sonarr"
-[0]: https://hub.docker.com/r/julesmellot/plexis/                   "PlexIs"
-[0]: https://nandyalu.github.io/trailarr/                           "Trailer"
+[14]: https://radarr.video                              "Radarr.video"
+[15]: https://wiki.servarr.com/en/radarr                               "Servarr: Radarr"
 [15]: https://nicolargo.github.io/glances/           "Website"
 [17]: https://glances.readthedocs.io/en/latest/      "Docs"
 [18]: https://github.com/nicolargo/glances/wiki      "Wiki"
