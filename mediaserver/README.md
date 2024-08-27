@@ -94,3 +94,4 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 [30]: https://www.bazarr.media                            "Bazarr.media"
 [31]: https://wiki.bazarr.media                           "Bazarr: Wiki"
 
+[36]
