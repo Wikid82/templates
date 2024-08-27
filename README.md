@@ -44,6 +44,10 @@ A python based web application for monitoring, analytics and notifications for P
 [8]: https://tautulli.com                                             "Tautulli.com"
 [9]: https://github.com/Tautulli/Tautulli                             "Tautulli GitHub"
 
+- [Overseerr][12] - Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
+- [PlexIs][13] - Plexis is a tool designed to enhance your Plex media server
+
+
 ## Prowlarr ##
 
 Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
@@ -57,10 +61,10 @@ FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 [GitHub][25]  |  [Docker Hub][26] 
 
 
-[23]: https://prowlarr.com                     "Prowlarr.com"
-[24]: https://wiki.servarr.com/en/prowlarr     "Servarr: Prowlarr"
+[23]: https://prowlarr.com                                              "Prowlarr.com"
+[24]: https://wiki.servarr.com/en/prowlarr                              "Servarr: Prowlarr"
 [25]: https://github.com/FlareSolverr/FlareSolverr                      "Flaresolverr GitHub"
-[26]:                       "GitHub"
+[26]: https://hub.docker.com/r/flaresolverr/flaresolverr                "Flaresolverr Docker Hub"
 
 ## Sonarr ##  
 
@@ -82,14 +86,24 @@ Radarr is a movie collection manager for Usenet and BitTorrent users. Two popula
 [14]: https://radarr.video                                            "Radarr.video"
 [22]: https://wiki.servarr.com/en/radarr                              "Servarr: Radarr"
 
-- [Trailarr][22] - Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
-- [Prowlarr][10] - Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. 
-   - [Flaresolver][14] - FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
-- [Bazarr][11] - Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
-- [Overseerr][12] - Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
-- [PlexIs][13] - Plexis is a tool designed to enhance your Plex media server
+## Trailarr ##
 
+Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
 
+[GitHub][27]  |  [Docker Hub][28]  |  [Docs][29]
+
+[27]: https://github.com/nandyalu/trailarr                           "Trailarr: Github"
+[28]: https://hub.docker.com/r/nandyalu/trailarr/                    "Trailarr: Docker Hub"
+[29]: https://nandyalu.github.io/trailarr                            "Trailarr: Docs"
+
+## Bazarr ##
+
+Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
+
+[Websire][30]  |  [Docker Hub][31] 
+
+[30]: https://www.bazarr.media                            "Bazarr.media"
+[31]: https://wiki.bazarr.media                           "Bazarr: Wiki"
 
 # <ins>PiHole</ins>: #
 
