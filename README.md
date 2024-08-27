@@ -10,6 +10,8 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 [4]: https://demo.dashy.to                                            "Dashy Live Demo"
 [5]: https://github.com/lissy93/dashy                                 "Dashy GitHub"
 
+
+
 # <ins>Glances</ins>: #
 ## An Eye on your system ##
 
@@ -21,6 +23,9 @@ Glances is a cross-platform system monitoring
 [17]: https://glances.readthedocs.io/en/latest/                       "Docs"
 [18]: https://github.com/nicolargo/glances/wiki                       "Wiki"
 [16]: https://github.com/nicolargo/glances                            "GitHub"
+
+
+
 
 # <ins>Media Server</ins>: #
 
@@ -104,6 +109,9 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 
 [30]: https://www.bazarr.media                            "Bazarr.media"
 [31]: https://wiki.bazarr.media                           "Bazarr: Wiki"
+
+
+
 
 # <ins>PiHole</ins>: #
 
