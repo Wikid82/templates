@@ -137,4 +137,4 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 [21]: https://github.com/pi-hole/docker-pi-hole                       "GitHub"
 
 
-[36}
+[36]
