@@ -57,7 +57,7 @@ A python based web application for monitoring, analytics and notifications for P
 
 - ## PlexIs ##
 
-  Plexis is a tool designed to enhance your Plex media server
+  Plexis is a tool designed to enhance your Plex media server by creating custom collections with the help of AI. (in development at the time of writing)
 
 [Website][35]
 
