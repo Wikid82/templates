@@ -46,20 +46,20 @@ A python based web application for monitoring, analytics and notifications for P
 
 ## Prowlarr ##
 
-Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. 
+Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
 
 [Website][23]  |  [Wiki][24] 
 
-### Flaresolver ### 
+## Flaresolverr ## 
 
 FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 
-[Website][25]  |  [Wiki][26] 
+[GitHub][25]  |  [Docker Hub][26] 
 
 
-[23]:                                          "Website"
-[24]:                                         "Docs"
-[25]:                       "GitHub"
+[23]: https://prowlarr.com                     "Prowlarr.com"
+[24]: https://wiki.servarr.com/en/prowlarr     "Servarr: Prowlarr"
+[25]: https://github.com/FlareSolverr/FlareSolverr                      "Flaresolverr GitHub"
 [26]:                       "GitHub"
 
 ## Sonarr ##  
