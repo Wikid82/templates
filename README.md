@@ -13,9 +13,9 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 
 
 # <ins>Glances</ins>: #
-## An Eye on your system ##
+### An Eye on your system ###
 
-Glances is a cross-platform system monitoring
+Glances is a cross-platform system monitoring tool.
 
 [Website][15] |  [Docs][17] | [Wiki][18] |  [GitHub][16]
 
@@ -49,9 +49,22 @@ A python based web application for monitoring, analytics and notifications for P
 [8]: https://tautulli.com                                             "Tautulli.com"
 [9]: https://github.com/Tautulli/Tautulli                             "Tautulli GitHub"
 
-- [Overseerr][12] - Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
-- [PlexIs][13] - Plexis is a tool designed to enhance your Plex media server
+- ## Overseerr ##
 
+ Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
+
+[Website][32]  |  [GitHub][33] | [Website][34]
+
+- ## PlexIs ##
+
+  Plexis is a tool designed to enhance your Plex media server
+
+[Website][35]
+
+[32]: https://overseerr.dev                                          "Overseerr"
+[33]: https://github.com/sct/overseerr                               "Overseerr: GitHub"
+[34]: https://docs.overseerr.dev                                     "Overseerr: Docs"
+[35]: https://hub.docker.com/r/julesmellot/plexis                    "Plexis: Docker Hub"
 
 - ## Prowlarr ##
 
@@ -59,7 +72,7 @@ Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base
 
 [Website][23]  |  [Wiki][24] 
 
--- ## Flaresolverr ## 
+- ## Flaresolverr ## 
 
 FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 
@@ -123,3 +136,5 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 [20]: https://docs.pi-hole.net                                        "Docs"
 [21]: https://github.com/pi-hole/docker-pi-hole                       "GitHub"
 
+
+[36}
