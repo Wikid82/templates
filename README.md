@@ -59,7 +59,7 @@ Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base
 
 [Website][23]  |  [Wiki][24] 
 
-- ## Flaresolverr ## 
+-- ## Flaresolverr ## 
 
 FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 
