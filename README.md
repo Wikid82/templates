@@ -31,7 +31,7 @@ Glances is a cross-platform system monitoring
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run formatted to be easliy deployed in one compose file.
 
-## Plex Media Server ##
+- ## Plex Media Server ##
 
 A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
 
@@ -40,7 +40,7 @@ A one-stop destination to stream movies, TV shows, and music, Plex is the most c
 [6]: https://hub.docker.com/r/plexinc/pms-docker/                     "Plex Media Server: Docker Hub"
 [7]: https://www.plex.tv                                              "Plex.tv"
 
-## Tautulli ##
+- ## Tautulli ##
 
 A python based web application for monitoring, analytics and notifications for Plex Media Server.
 
@@ -53,13 +53,13 @@ A python based web application for monitoring, analytics and notifications for P
 - [PlexIs][13] - Plexis is a tool designed to enhance your Plex media server
 
 
-## Prowlarr ##
+- ## Prowlarr ##
 
 Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
 
 [Website][23]  |  [Wiki][24] 
 
-## Flaresolverr ## 
+- ## Flaresolverr ## 
 
 FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 
@@ -71,7 +71,7 @@ FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 [25]: https://github.com/FlareSolverr/FlareSolverr                      "Flaresolverr GitHub"
 [26]: https://hub.docker.com/r/flaresolverr/flaresolverr                "Flaresolverr Docker Hub"
 
-## Sonarr ##  
+- ## Sonarr ##  
 
 Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
 
@@ -82,7 +82,7 @@ Sonarr is a PVR for Usenet and BitTorrent users. Two popular docker images are m
 [12]: https://docs.linuxserver.io/images/                             "Linuxserver.io Images"
 [13]: https://wiki.servarr.com/sonarr/installation/docker             "Servarr: Sonarr"
 
-## Radarr ##
+- ## Radarr ##
 
 Radarr is a movie collection manager for Usenet and BitTorrent users. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
 
@@ -91,7 +91,7 @@ Radarr is a movie collection manager for Usenet and BitTorrent users. Two popula
 [14]: https://radarr.video                                            "Radarr.video"
 [22]: https://wiki.servarr.com/en/radarr                              "Servarr: Radarr"
 
-## Trailarr ##
+- ## Trailarr ##
 
 Trailarr is a Docker application to download and manage trailers for your Radarr, and Sonarr libraries.
 
@@ -101,7 +101,7 @@ Trailarr is a Docker application to download and manage trailers for your Radarr
 [28]: https://hub.docker.com/r/nandyalu/trailarr/                    "Trailarr: Docker Hub"
 [29]: https://nandyalu.github.io/trailarr                            "Trailarr: Docs"
 
-## Bazarr ##
+- ## Bazarr ##
 
 Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements. Two popular docker images are maintained by [Hotio][11] and [LinuxServer][12].
 
