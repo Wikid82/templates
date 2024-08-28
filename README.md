@@ -53,18 +53,19 @@ A python based web application for monitoring, analytics and notifications for P
 
  Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
 
-[Website][32]  |  [GitHub][33] | [Website][34]
+[Website][32]  |  [GitHub][33] | [Docs][34]
 
-- ## PlexIs ##
+- ## Kometa ##
 
-  Plexis is a tool designed to enhance your Plex media server by creating custom collections with the help of AI. (in development at the time of writing)
+ Kometa (formerly known as Plex Meta Manager) is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
 
-[Docker Hub][35]
+[Wiki][35]  
 
 [32]: https://overseerr.dev                                          "Overseerr"
 [33]: https://github.com/sct/overseerr                               "Overseerr: GitHub"
 [34]: https://docs.overseerr.dev                                     "Overseerr: Docs"
-[35]: https://hub.docker.com/r/julesmellot/plexis                    "Plexis: Docker Hub"
+[35]: https://kometa.wiki                                            "Kometa"
+
 
 - ## Prowlarr ##
 
