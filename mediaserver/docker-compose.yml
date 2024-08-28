@@ -114,26 +114,6 @@ services:
      UMASK: 002
      TZ: America/New_York
 
-# PlexIs
-  plexis:
-    container_name: plexis
-    restart: unless-stopped
-    image: docker.io/julesmellot/plexis:latest
-    ports:
-      - "9999:9999"
-    volumes:
-      - /path/to/plexis/data:/config    
-    environment:
-     PUID: 1000
-     PGID: 1000
-     UMASK: 002
-     TZ: America/New_York
-     PLEX_URL: http://{Your.Server.IP.Address}:32400 
-     PLEX_TOKEN: {YourPlexToken}
-     RADARR_URL: http://{Your.Server.IP.Address}:7878 
-     RADARR_API_KEY: {YourRadarrAPIKey} 
-     GROQ_API_KEY: {YourGROGAPIKey}
-
 # Flaresolver
   flaresolver:
     container_name: flaresolver
