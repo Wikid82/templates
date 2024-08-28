@@ -126,16 +126,3 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 
 
 
-
-# <ins>PiHole</ins>: #
-
-﻿﻿Network-wide Ad Blocking
-
-[Website][19] |  [Docs][20] |  [GitHub][21]
-
-[19]: https://pi-hole.net                                             "Website"
-[20]: https://docs.pi-hole.net                                        "Docs"
-[21]: https://github.com/pi-hole/docker-pi-hole                       "GitHub"
-
-
-[36]
