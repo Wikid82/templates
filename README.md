@@ -110,7 +110,7 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 
 # Monitoring #
 
-# <ins>Glances</ins>: #
+##lances: ##
 ### An Eye on your system ###
 
 Glances is a cross-platform system monitoring tool.
@@ -122,7 +122,7 @@ Glances is a cross-platform system monitoring tool.
 [18]: https://github.com/nicolargo/glances/wiki                       "Wiki"
 [16]: https://github.com/nicolargo/glances                            "GitHub"
 
-# <ins>Speedtest Tracker</ins>: #
+##Speedtest Tracker: ##
 
 A Docker image to check your internet speed using Ookla's Speedtest service.
 
