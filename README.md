@@ -11,22 +11,6 @@ Dashy is an open source, highly customizable, easy to use, privacy-respecting da
 [5]: https://github.com/lissy93/dashy                                 "Dashy GitHub"
 
 
-
-# <ins>Glances</ins>: #
-### An Eye on your system ###
-
-Glances is a cross-platform system monitoring tool.
-
-[Website][15] |  [Docs][17] | [Wiki][18] |  [GitHub][16]
-
-[15]: https://nicolargo.github.io/glances/                            "Glances"
-[17]: https://glances.readthedocs.io/en/latest/                       "Docs"
-[18]: https://github.com/nicolargo/glances/wiki                       "Wiki"
-[16]: https://github.com/nicolargo/glances                            "GitHub"
-
-
-
-
 # <ins>Media Server</ins>: #
 
 This is a collection of some of the most popular images (and some smaller ones to try) that I personally run formatted to be easliy deployed in one compose file.
@@ -124,5 +108,26 @@ Bazarr is a companion application to Sonarr and Radarr that manages and download
 [30]: https://www.bazarr.media                            "Bazarr.media"
 [31]: https://wiki.bazarr.media                           "Bazarr: Wiki"
 
+# Monitoring #
+
+# <ins>Glances</ins>: #
+### An Eye on your system ###
+
+Glances is a cross-platform system monitoring tool.
+
+[Website][15] |  [Docs][17] | [Wiki][18] |  [GitHub][16]
+
+[15]: https://nicolargo.github.io/glances/                            "Glances"
+[17]: https://glances.readthedocs.io/en/latest/                       "Docs"
+[18]: https://github.com/nicolargo/glances/wiki                       "Wiki"
+[16]: https://github.com/nicolargo/glances                            "GitHub"
+
+# <ins>Speedtest Tracker</ins>: #
+
+A Docker image to check your internet speed using Ookla's Speedtest service.
+
+[Docs][36]
+
+[36]: https://docs.speedtest-tracker.dev                             "Speedtest Tracker: Docs"
 
 
