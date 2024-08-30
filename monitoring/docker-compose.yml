@@ -3,12 +3,12 @@ services:
     image: docker.io/nicolargo/glances:latest
     container_name: glances
     ports: 
-      - 61210:61208
+      - 61208:61208
       - 61209:61209
     volumes:
       - /run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro 
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /home/jeremy/Server/Configs/monitoring/glances:/config
+      - /path/to/glances/:/config
       # Uncomment the below line if you want glances to display host OS detail instead of container's
       # - /etc/os-release:/etc/os-release:ro
     environment:
@@ -29,18 +29,18 @@ services:
       environment:
           - PUID=1000
           - PGID=1000
-          - APP_KEY=base64:Wppl8FVw25UFngwYSord/P/T9RmOo9hbtWEFn2QaUF0=
+          - APP_KEY={seceretapikey}
           - DB_CONNECTION=sqlite
           - SPEEDTEST_SCHEDULE=00 * * * *
-          - SPEEDTEST_SERVERS=1206, 17243, 16561
+          - SPEEDTEST_SERVERS=
           - CHART_DATETIME_FORMAT=h:i a
           - DATETIME_FORMAT=h:i a
           - APP_TIMEZONE=America/New_York
           - DISPLAY_TIMEZONE=America/New_York
           - APP_DEBUG=true
       volumes:
-          - /home/jeremy/Server/Configs/monitoring/speedtest_tracker/config:/config
-          - /home/jeremy/Server/Configs/monitoring/speedtest_tracker/config/keys:/config/keys
+          - /path/to//speedtest_tracker/config:/config
+          - /path/to/speedtest_tracker/config/keys:/config/keys
       image: lscr.io/linuxserver/speedtest-tracker:latest
       restart: unless-stopped
        
